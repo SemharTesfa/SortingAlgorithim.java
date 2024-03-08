@@ -17,8 +17,7 @@ public class PersonSorterTest {
 	Person JamesPotter = new Person("Potter", "James", Date.valueOf("1969-06-11"));
 	Person JamesBond = new Person("Bond", "James", Date.valueOf("1990-06-23"));
 
-	// TODO: you can add more persons for your tests
-
+	
 	Person[] P = { JohnDoe, HarryPotter, JamesBond, JamesPotter };
 
 	/**
@@ -69,15 +68,7 @@ public class PersonSorterTest {
 	}
 	
 	
-	
 
-	/**
-	 * Do not modify this class. This is for testing the correctness of your
-	 * sorting algorithm
-	 * 
-	 * @author rprasojo
-	 *
-	 */
 	private class PersonComparator implements Comparator<Person> {
 
 		private List<Integer> byValues = new ArrayList<Integer>();
