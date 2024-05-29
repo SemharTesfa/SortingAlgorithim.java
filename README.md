@@ -23,15 +23,12 @@ This project demonstrates the implementation and comparison of various sorting a
    git clone https://github.com/your-username/sorting-comparison.git
 2. Navigate to the project directory:
    ```sh
-   Copy code
    cd sorting-comparison
 3. Compile the Java files:
    ```sh
-   Copy code
    javac *.java
 4. Run the main application or tests:
    ```sh
-   Copy code
    java SortingComparison
    java PersonSorterTest
 
