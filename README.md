@@ -22,23 +22,21 @@ This project demonstrates the implementation and comparison of various sorting a
    ```sh
    git clone https://github.com/your-username/sorting-comparison.git
 2. Navigate to the project directory:
-  ```sh
-     cd sorting-comparison
-
+   ```sh
+   Copy code
+   cd sorting-comparison
 3. Compile the Java files:
-     ```sh
-     javac *.java
+   ```sh
+   Copy code
+   javac *.java
 4. Run the main application or tests:
-  ```sh
-  java SortingComparison
-  java PersonSorterTest
+   ```sh
+   Copy code
+   java SortingComparison
+   java PersonSorterTest
 
 ### Usage
-  Execute the SortingComparison class to see the performance comparison of different sorting algorithms.
-  Testing Sorting Functionality
-  Execute the PersonSorterTest class to run the test cases for sorting Person objects.
-  Person: Class representing a person with attributes used for sorting.
-  Person Sorter Test: Test class for sorting Person objects.
-  PersonSorterTest: Additional test class for sorting Person objects.
-  SortingComparison.java: Main class for comparing different sorting algorithms.
-
+-  Running Sorting Comparison
+- Execute the SortingComparison class to see the performance comparison of different sorting algorithms.
+- Testing Sorting Functionality
+- Execute the PersonSorterTest class to run the test cases for sorting Person objects.
